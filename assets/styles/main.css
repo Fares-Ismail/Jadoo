@@ -17,6 +17,7 @@
   --medium-purple: #8a79df;
   --roman-silver: #84829a;
   --manatee: #9ca0b0;
+  --dark-silver:#686D77;
 }
 a {
   text-decoration: none;
@@ -147,7 +148,17 @@ header nav ul li select {
   background-image: url(../images/Decore.png);
   z-index: -1;
 }
-
+.option .bottom {
+  background-color: var(--orange-web);
+  color: #ffffff;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+.play-bottom {
+  color: var(--dark-silver);
+  display: inline;
+  width: auto;
+}
 .hero .image .blob {
   position: absolute;
   top: 0;
@@ -158,4 +169,27 @@ header nav ul li select {
   .hero .image {
     display: none;
   }
+}
+.container {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.CATEGORY {
+  color: var(--dark-electric-blue);
+}
+.container .services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+
+  height: 314px;
+}
+.text-CATEGORY {
+  margin-bottom: 85px;
+}
+.container .img-pluss {
+  position: absolute;
+  right: 0;
 }
