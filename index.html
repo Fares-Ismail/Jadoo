@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jadoo</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,
-      700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,1
+      00;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles/main.css" />
@@ -17,150 +17,125 @@
     <header>
       <div class="container">
         <div class="logo">
-          <a href="index.html"><img src="assets/icons/Logo.webp" alt="Jadoo Website Logo Name" /></a>
+          <a href="index.html"><img src="assets/icons/Logo.webp" alt="Logo Jadoo" /></a>
         </div>
         <nav>
-          <label for="toggle">
-            <img src="assets/icons/menu.webp" alt="Toggle Navbar Icon Menu" />
-          </label>
-          <input type="checkbox" id="toggle" />
+          <label for="menu"><img src="assets/icons/menu.webp" alt="menu icon to navbar" /></label>
+          <input type="checkbox" id="menu" />
           <ul>
+            <li><a href="#desitnations">Desitnations</a></li>
+            <li><a href="#hotels">Hotels </a></li>
+            <li><a href="#flights">Flights </a></li>
+            <li><a href="#bookings">Bookings </a></li>
+            <li><a href="#login">Login </a></li>
+            <li class="sign_up"><a href="#">Sign up </a></li>
             <li>
-              <a href="#">Destinitaions</a>
-            </li>
-            <li>
-              <a href="#">Hotels</a>
-            </li>
-            <li>
-              <a href="#">Flights</a>
-            </li>
-            <li>
-              <a href="#">Bookings</a>
-            </li>
-            <li>
-              <a href="#">Login</a>
-            </li>
-            <li>
-              <a href="#" class="signup-link">Sign up</a>
-            </li>
-            <li>
-              <select name="languages" id="languages">
-                <option value="en">En</option>
-                <option value="ar">Ar</option>
+              <select>
+                <option value="en">EN</option>
+                <option value="ar">AR</option>
               </select>
             </li>
+            <li><img src="assets/icons/moon-symbol-512.webp" id="them" width="60" /></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <section class="hero">
-        <div class="container">
-          <div class="info">
-            <p class="welcome-message">Best Destinations around the world</p>
-            <h1>Travel, <span class="enjoy">enjoy</span> and live a new and full life</h1>
-            <p class="description">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-            <div class="option">
-              <a href="#" class="bottom">Find out more</a>
-
-              <a href="#" class="play-bottom">
-                <img src="assets/icons/play-btn.webp" alt="Play Icon" />
-                Play Demo
-              </a>
+    <section class="hero" id="desitnations">
+      <div class="container">
+        <div class="identification">
+          <p class="around_the_world">Best Destinations Around the world</p>
+          <h1>
+            Travel,<span>enjoy</span><br />
+            and live a new and full life
+          </h1>
+          <p>
+            Built Wicket longer admire do barton vanity itself do in it. <br />
+            Preferred to sportsmen it engrossed listening. Park gate <br />
+            sell they west hard for the.
+          </p>
+          <div class="btn_hero">
+            <a href="#" class="find">Find out more</a>
+            <div class="play_btn">
+              <div class="image_play"></div>
+              <a href="#">Play Demo</a>
             </div>
           </div>
-          <div class="image">
-            <img src="assets/images/hero.webp" alt="Hero Section Image" />
-            <img src="assets/images/blob.webp" class="blob" alt="Blob" />
-          </div>
         </div>
-      </section>
-    </main>
-    <section>
+        <div class="image">
+          <img src="assets/images/hero.webp" alt="hero image" />
+          <div class="blob"><img src="assets/images/blob.webp" alt="blob image" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="offer_best_services" id="hotels">
       <div class="container">
-        <div class="img-pluss"><img src="assets/icons/Group 4.png" alt="image" /></div>
-        <div class="text-CATEGORY">
-          <h4 class="color-text">CATEGORY</h4>
-          <h2>We Offer Best Services</h2>
-        </div>
-        <div class="services">
-          <div>
-            <img src="assets/icons/satellite-dish.png" alt="satellite-dish-img" />
-            <span>
-              <h3>Calculated Weather</h3>
-              <p>
-                Built Wicket longer <br />
-                admire do barton <br />
-                vanity itself do in it.
-              </p>
-            </span>
+        <div class="image"><img src="assets/images/Group 4.png" alt="decoration photo" /></div>
+        <h4>CATEGORY</h4>
+        <h2>We Offer Best Services</h2>
+        <div class="our_services">
+          <div class="service">
+            <img src="assets/icons/satellite-dish.png" alt="satellite dish" />
+            <h3>Calculated Weather</h3>
+            <p>
+              Built Wicket longer <br />
+              admire do barton <br />vanity itself do in it.
+            </p>
           </div>
-          <div class="flights">
-            <img src="assets/icons/Group 51.png" alt="Flights-img" />
-            <span>
-              <h3>Best Flights</h3>
-              <p>
-                Engrossed listening. <br />
-                Park gate sell they <br />
-                west hard for the.
-              </p>
-            </span>
+          <div class="service_flights">
+            <img src="assets/icons/Group 51.png" alt="satellite dish" />
+            <h3>Best Flights</h3>
+            <p>
+              Engrossed listening. <br />
+              Park gate sell they <br />
+              west hard for the.
+            </p>
           </div>
-          <div>
-            <img src="assets/icons/Group 50.png" alt="microphone" />
-            <span>
-              <h3>Local Events</h3>
-              <p>
-                Barton vanity itself do <br />
-                in it. Preferd to men it <br />
-                engrossed listening.
-              </p>
-            </span>
+          <div class="service">
+            <img src="assets/icons/Group 50.png" alt="satellite dish" />
+            <h3>Local Events</h3>
+            <p>
+              Barton vanity itself do <br />
+              in it. Preferd to men it <br />
+              engrossed listening.
+            </p>
           </div>
-          <div>
-            <img src="assets/icons/Group 49.png" alt="Customization-img" />
-            <span>
-              <h3>Customization</h3>
-              <p>
-                We deliver outsourced <br />
-                aviation services for <br />
-                military customers
-              </p>
-            </span>
+          <div class="service">
+            <img src="assets/icons/Group 49.png" alt="satellite dish" />
+            <h3>Customization</h3>
+            <p>
+              We deliver outsourced <br />
+              aviation services for <br />
+              military customers
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="top_destinations" id="flights">
       <div class="container">
-        <div class="text-CATEGORY">
-        <h4 class="color-text">Top Selling</h4>
+        <h4>Top Selling</h4>
         <h2>Top Destinations</h2>
-      </div>
         <div class="destiantions">
-
-          <div>
+          <div class="selling">
             <img src="assets/images/Rectangle.png" alt="roma" />
-            <div><span>Rome, Italty</span><span>$5,42k</span></div>
-            <div>
+            <div class="sell"><span>Rome, Italty</span><span>$5,42k</span></div>
+            <div class="massege">
               <img src="assets/icons/send 2.png" alt="send icon" />
               <span>10 Days Trip</span>
             </div>
           </div>
-
-          <div>
-            <img src="assets/images/Rectangle 14.jpg" alt="London" />
-            <div><span>London, UK</span><span>$4.2k</span></div>
-            <div>
+          <div class="selling">
+            <img src="assets/images/Rectangle 14.jpg" alt="roma" />
+            <div class="sell"><span>London, UK</span><span>$4.2k</span></div>
+            <div class="massege">
               <img src="assets/icons/send 2.png" alt="send icon" />
               <span>12 Days Trip</span>
             </div>
           </div>
-
-          <div">
-            <img src="assets/images/Rectangle 11.png" alt="Europe" />
-            <div><span>Full Europe</span><span>$15k</span></div>
-            <div>
+          <div class="selling2 selling">
+            <img src="assets/images/Rectangle 11.png" alt="roma" />
+            <div class="sell"><span>Full Europe</span><span>$15k</span></div>
+            <div class="massege">
               <img src="assets/icons/send 2.png" alt="send icon" />
               <span>28 Days Trip</span>
             </div>
@@ -168,43 +143,190 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="your_next_trip" id="bookings">
       <div class="container">
-        <div class="booking">
-          <h4 class="color-text">Easy and Fast</h4>
-        <h2>Book your next trip <br> in 3 easy steps</h2>
-        </div>
-        <div class="booking-icons">
-
-          <div class="group7"><img src="assets/icons/Group 7.png" alt="icon">
-          </div>
-
-          <div class="Destination">
-          <h4 class="color-text">Choose Destination</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur <br>
-              adipiscing elit. Urna, tortor tempus. </p>
-          </div>
-
-          <div class="group12"><img src="assets/icons/Group 12.png" alt="icon">
-          </div>
-
-          <div class="Destination">
-          <h4 class="color-text">Make Payment</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur <br>
-            adipiscing elit. Urna, tortor tempus.</p>
-          </div>
-
-          <div class="group11"><img src="assets/icons/Group 11.png" alt="icon">
-          </div>
-
-            <div class="Destination">
-            <h4 class="color-text">Reach Airport on Selected Date</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur <br>
-              adipiscing elit. Urna, tortor tempus. </p>
+        <span>Easy and Fast</span>
+        <h2>
+          Book your next trip <br />
+          in 3 easy steps
+        </h2>
+        <div class="travel">
+          <div class="info">
+            <div class="steps">
+              <div class="image"></div>
+              <div class="info_steps">
+                <h3>Choose Destination</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur <br />
+                  adipiscing elit. Urna, tortor tempus.
+                </p>
+              </div>
             </div>
-
+            <div class="steps">
+              <div class="image1"></div>
+              <div class="info_steps">
+                <h3>Make Payment</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur <br />
+                  adipiscing elit. Urna, tortor tempus.
+                </p>
+              </div>
+            </div>
+            <div class="steps">
+              <div class="image2"></div>
+              <div class="info_steps">
+                <h3>Reach Airport on Selected Date</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur <br />
+                  adipiscing elit. Urna, tortor tempus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="image_info">
+            <div class="information">
+              <img src="assets/images/Rectangle 17.jpg" alt="women watsh the sea" />
+              <h3>Trip To Greece</h3>
+              <span>14-29 June by | Robbin joseph</span>
+              <div class="icons">
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+              </div>
+              <div class="people">
+                <div class="image_people"><img src="assets/icons/building 1.png" alt="building" /><span>24 people going</span></div>
+                <img src="assets/icons/love.webp" alt="heart" />
+              </div>
+            </div>
+            <div class="mosque">
+              <img src="assets/images/image 32.png" alt="mosque" />
+              <div class="info_mosque">
+                <span>Ongoing</span>
+                <h5>Trip to rome</h5>
+                <h6><span>40% </span>completed</h6>
+                <input type="range" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <section class="what_people_say_about_us" id="login">
+      <div class="container">
+        <div class="about_us">
+          <h6>Testimonials</h6>
+          <h2>
+            What people say <br />
+            about Us.
+          </h2>
+          <ul>
+            <li class="black_color"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="client">
+          <img src="assets/images/Image.png" alt="client" />
+          <div class="client1">
+            <p>
+              “On the Windows talking painted pasture yet its <br />
+              express parties use. Sure last upon he same as <br />
+              knew next. Of believed or diverted no.”
+            </p>
+            <span class="name">Mike taylor</span>
+            <span>Lahore, Pakistan</span>
+            <div class="client2">
+              <span class="thomas">Chris Thomas</span>
+              <span>CEO of Red Button</span>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <a href="#"><img src="assets/icons/top.webp" alt="top icon" /></a>
+          <a href="#"><img src="assets/icons/botome.webp" alt="botome icon" /></a>
+        </div>
+      </div>
+    </section>
+    <section class="prands">
+      <div class="container">
+        <img src="assets/images/image 27.png" alt="axon" />
+        <img src="assets/images/image 28.png" alt="jestar" />
+        <img src="assets/images/image 29.png" alt="expedia" class="expedia" />
+        <img src="assets/images/image 30.png" alt="qantas" />
+        <img src="assets/images/image 31.png" alt="alitalia" />
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="send">
+          <img src="assets/icons/send (2) 1.png" alt="send icon" />
+        </div>
+        <div class="subscribe_information">
+          <p>Subscribe to get information, latest news and other interesting offers about Jadoo</p>
+        </div>
+        <div class="input_subscribe">
+          <div class="input_email">
+            <img src="assets/icons/Group 46.png" alt="email icon" />
+            <input type="email" placeholder="Your email" />
+          </div>
+          <div class="subscribe_btn">
+            <input type="submit" value="Subscribe" />
+          </div>
+        </div>
+      </div>
+      <div class="decore1">
+        <img src="assets/images/Group 42.webp" alt="decoration" />
+      </div>
+      <div class="decore">
+        <img src="assets/images/Group 5.webp" alt="decoration image" />
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">Jadoo.</a>
+          <p>
+            Book your trip in minute, get full <br />
+            Control for much longer.
+          </p>
+        </div>
+        <div class="about_us">
+          <div class="about">
+            <h3>Company</h3>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Mobile</a>
+          </div>
+          <div class="about">
+            <h3>Contact</h3>
+            <a href="#">Help/FAQ</a>
+            <a href="#">Press</a>
+            <a href="#">Affilates</a>
+          </div>
+          <div class="about">
+            <h3>More</h3>
+            <a href="#">Airlinefees</a>
+            <a href="#">Airline</a>
+            <a href="#">Low fare tips</a>
+          </div>
+        </div>
+        <div class="social">
+          <div class="social_icon">
+            <div class="facebook"></div>
+            <div class="instagram"></div>
+            <div class="twiter"></div>
+          </div>
+          <span>Discover our app</span>
+          <div class="app">
+            <img src="assets/icons/Google Play.png" alt="Google play" />
+            <img src="assets/icons/Play Store.png" alt="Play stor" />
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>All rights reserved@jadoo.co</p>
+      </div>
+    </footer>
+    <script src="assets/scripts/main.js"></script>
   </body>
 </html>
